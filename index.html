@@ -2,20 +2,163 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>DCU | Diseño centrado en el usuario</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/style.css">
+	<title>DCU | Diseño centrado en el usuario</title>
 </head>
 <body>
-
 	<header>
-		<div class="container">
-		
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Menu</a>
+				<a href="#" id="btn-galeria">Galería</a>
+				<a href="#" id="btn-ubicacion">Ubicación</a>
+			</nav>
+
+			<div class="textos">
+				<h1 class="nombre">DCU <span>Diseño centrado en el usuario</span></h1>
+				<h3>Experiencia de usuario</h3>
+			</div>
 		</div>
 	</header>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<section class="main">
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/acerca-de.jpg" alt="">
+				</div>
+
+				<article>
+					<h3>Acerca de</h3>
+					<p>El Diseño Centrado en el Usuario (DCU), o User Centered Design (UCD), es definido por la Usability Professionals Association (UPA) como un  enfoque de diseño cuyo proceso está dirigido por información sobre las personas que van a hacer uso del producto.
+
+					<p>El origen de esta visión se enmarca en el diseño industrial y militar de la década de los cincuenta. Por entonces, los diseñadores estaban convencidos de que la optimización y adaptación al ser humano del diseño de productos respondía a un minucioso proceso de investigación en antropometría, ergonomía, arquitectura o biomecánica.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Menu</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">De comer</p>
+
+							<div class="platillo">
+								<p class="nombre">Planificación estratégica</p>
+								<p class="precio">$25</p>
+								<p class="descripcion">En este proceso se definen los alcances estratégicos y los objetivos generales ...</p>
+							</div>
+
+							<div class="platillo">
+								<p class="nombre">Diseño de experiencia de usuario</p>
+								<p class="precio">$100</p>
+								<p class="descripcion">Luego de revisar los objetivos, analizamos el comportamiento de los usuarios, sus necesidades ...</p>
+							</div>
+
+							<div class="platillo">
+								<p class="nombre">Arquitectura de información</p>
+								<p class="precio">$200</p>
+								<p class="descripcion">La construcción de la futura interfaz requiere ordenar, categorizar y etiquetar el contenido que poseerá ...</p>
+							</div>
+
+							<div class="platillo">
+								<p class="nombre">Diseño de la interfaz de usuario</p>
+								<p class="precio">$500</p>
+								<p class="descripcion">Un buen diseño debe incluir elementos que guíen a los usuarios a realizar ...</p>
+							</div>
+						</article>
+
+						<article>
+							<p class="categoria">De tomar</p>
+
+							<div class="platillo">
+								<p class="nombre">Desarrollo y producción</p>
+								<p class="precio">$1500</p>
+								<p class="descripcion">Nuestro objetivo desde 2012 ha sido crear plataformas responsive, optimizadas para motores ...</p>
+							</div>
+
+							<div class="platillo">
+								<p class="nombre">Sistema de medición enfocado en la UX</p>
+								<p class="precio">$200</p>
+								<p class="descripcion">Al haber identificado los puntos de contacto y las métricas que indicarán el nivel de eficiencia ...</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="galeria" id="galeria">
+			<div class="foto">
+				<img src="img/1.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/2.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/3.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/4.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/5.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/6.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/7.jpg" alt="">
+			</div>
+
+			<div class="foto">
+				<img src="img/8.jpg" alt="">
+			</div>
+		</section>
+
+		<section class="ubicacion" id="ubicacion">
+			<div class="contenedor">
+				<h3 class="titulo">Ubicación</h3>
+				<div class="direccion">
+					<p class="calle">Jr Tacna ####</p>
+					<p class="telefono">(51) 941 477 605</p>
+					<p class="correo"><a href="mailto:cchirito@ninjacodi.com">1110227@utp.edu.pe</a></p>
+				</div>
+
+				<div class="horarios">
+					<h4>Horarios</h4>
+					<p class="entre-semana">Luneas a Viernes <br> 8:00am - 9:00pm</p>
+					<p class="fin-de-semana">Sabados y Domingos <br> 11:00am - 4:00pm</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7803.329853538559!2d-77.04297088453949!3d-12.066559999390885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sutp!5e0!3m2!1ses-419!2spe!4v1516832475273" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</section>
+	</section>
+
+	<footer>
+		<div class="contenedor">
+			<div class="copyright">
+				<p>Copyright CarlosAlexander @ 2018</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/effects.js"></script>
+	<script src="js/parallax.js"></script>
 </body>
 </html>
